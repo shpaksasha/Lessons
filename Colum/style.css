@@ -1,0 +1,11 @@
+.left, .right{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+.left{
+    background-color: coral;
+}
+.right{
+    background-color: orange;
+}

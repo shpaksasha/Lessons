@@ -1,0 +1,17 @@
+.eyes_1, .eyes_2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid black;
+    position: relative;
+    float: left;
+}
+.pupil_1, .pupil_2{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    border-radius: 100%;
+    left: 170px;
+    bottom: 100px;
+}

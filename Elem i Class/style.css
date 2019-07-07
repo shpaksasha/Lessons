@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #B6ABF1;
+}
+.coment{
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+    font-size: 15px;
+}
+.time{
+    width: 100px;
+    height: 100px;
+    background-color: #A0C6C6;
+    border-radius: 50px;
+}
+.obrat{
+    font-size: 40px;
+    color: #416AD3;
+}

@@ -1,0 +1,57 @@
+.keyboard{
+    border: 1px solid slategray;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    width: 680px;
+}
+.line::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.key{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius:5px;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.key:hover{
+    color: #FFFFFF;
+    background-color: silver;
+    cursor: pointer;
+}
+.backspace{
+    width: auto;
+    font-size: 0.8em;
+}
+.tab, .lock{
+    width: 65px;
+    font-size: 0.9em;
+}
+.sh{
+    width: 94px;
+}
+.space{
+    width: 263px;
+}
+.key_2{
+    width: 40px;
+}
+.little{
+    font-size: 10px;
+}
+.enter{
+    position: absolute;
+    right: 28px;
+    top: 49px;
+    width: 36px;
+    height: 74px;
+}
+

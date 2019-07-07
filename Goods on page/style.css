@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.text{
+    width: 50px;
+}
+.menu{
+    width: 300px;
+    height: 600px;
+    background-color: #B6ABF1;
+    position: fixed;
+    left: -280px;
+    top: 0;
+    transition: all ease 0.8s;
+}
+.menu ul{
+    list-style: none;
+}

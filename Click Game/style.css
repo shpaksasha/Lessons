@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.click{
+    width: 200px;
+    height: 200px;
+    background-color: #B6ABF1;
+    margin: 50px;
+}
+.finger{
+    width: 50px;
+    height: 50px;
+}
+.game{
+    margin-left: 400px;
+    width: 150px;
+    height: 150px;
+    background-color: #B6ABF1;
+}
+.block{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    float: left;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}

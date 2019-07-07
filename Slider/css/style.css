@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee2ec;
+}
+.slider{
+    max-width: 800px;
+    max-height: 500px;
+    display: block;
+    margin: 100px auto;
+    border: 3px ridge red;
+    box-sizing: border-box;
+    overflow:hidden;
+    transition: all ease 0.5s;
+}
+.sImg{
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: all ease 0.5s;
+}
+.sImg img{
+    width: 800px;
+    height: 500px;
+}
+.sImg img:nth-child(5){
+transition: all ease 0.1s;
+}
